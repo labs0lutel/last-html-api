@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Интерактивный проект</h1>
+
+        <div class="buttons">
+            <button id="back">Назад</button>
+            <button id="forward">Вперед</button>
+        </div>
+
+        <h2>Анимация на Canvas</h2>
+        <canvas id="canvas" width="600" height="400"></canvas>
+
+        <div class="worker-section">
+            <h2>Вычисление факториала с Web Worker</h2>
+            <input type="number" id="inputNumber" placeholder="Введите число" />
+            <button id="startWorker">Вычислить факториал</button>
+            <p id="result"></p>
+            <p id="error"></p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
